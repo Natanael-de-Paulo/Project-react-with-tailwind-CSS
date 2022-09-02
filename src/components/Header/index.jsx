@@ -24,7 +24,6 @@ export function Header(){
           </ul>
         </nav>
       </header>
-
     </>  
   )
 }
