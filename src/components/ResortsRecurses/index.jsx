@@ -55,32 +55,43 @@ export function ResortsGrid() {
           </h3>
           <div className="grid grid-cols-4 grid-rows-2 gap-6">
             <div className="relative col-span-2 row-span-2  overflow-hidden rounded-lg">
-              <div className="absolute">Park Resort</div>
+              <div className="absolute bottom-0 pl-4 pb-4 text-white z-10">
+                Park Resort
+              </div>
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT62FJTlJkwJoIYKjEnNCJLw4YFAsi9DfohgZu3vztScEznylMWBuelZUa2e8T43Op1OFw&usqp=CAU"
                 alt=""
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover brightness-75"
               />
             </div>
-            <div className="col-span-2 overflow-hidden rounded-lg max-h-[11em] ">
+            <div className="relative col-span-2 overflow-hidden rounded-lg max-h-[11em] ">
+              <div className="absolute bottom-0 pl-4 pb-4 text-white z-10">
+                Park Resort
+              </div>
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT62FJTlJkwJoIYKjEnNCJLw4YFAsi9DfohgZu3vztScEznylMWBuelZUa2e8T43Op1OFw&usqp=CAU"
                 alt=""
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover brightness-75"
               />
             </div>
-            <div className="overflow-hidden rounded-lg">
+            <div className="relative overflow-hidden rounded-lg">
+              <div className="absolute bottom-0 pl-4 pb-4 text-white z-10">
+                Park Resort
+              </div>
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT62FJTlJkwJoIYKjEnNCJLw4YFAsi9DfohgZu3vztScEznylMWBuelZUa2e8T43Op1OFw&usqp=CAU"
                 alt=""
-                className="w-full  h-full object-cover"
+                className="w-full  h-full object-cover brightness-75"
               />
             </div>
-            <div className="overflow-hidden rounded-lg">
+            <div className="relative overflow-hidden rounded-lg">
+              <div className="absolute bottom-0 pl-4 pb-4 text-white z-10">
+                Park Resort
+              </div>
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT62FJTlJkwJoIYKjEnNCJLw4YFAsi9DfohgZu3vztScEznylMWBuelZUa2e8T43Op1OFw&usqp=CAU"
                 alt=""
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover brightness-75"
               />
             </div>
           </div>
