@@ -3,7 +3,7 @@ import * as icon from 'react-icons/md'
 export function FeatureResource() {
   return (
     <>
-      <section className="container  mx-auto px-4 py-10 flex gap-4 flex-wrap">
+      <section className="container  mx-auto px-4 py-10 flex gap-10 flex-wrap">
         <article className="flex-1 min-w-[30%]">
           <p className="text-sm text-gray-400 font-medium uppercase">
             Resort em destaque
@@ -37,7 +37,54 @@ export function FeatureResource() {
           </div>
         </article>
 
-        <div className=" flex-shrink-0 grow max-w-md w-full h-64 bg-gray-700"></div>
+        <div className="flex-1 flex items-center justify-end">
+          <div className="flex-shrink-0 max-w-md w-full h-64 bg-gray-700"></div>
+        </div>
+      </section>
+    </>
+  )
+}
+
+export function ResortsGrid() {
+  return (
+    <>
+      <section className="container mx-auto px-4 py-4">
+        <article>
+          <h3 className="text-2xl text-gray-500 font-semibold text-center mb-8">
+            Conheça mais resorts
+          </h3>
+          <div className="grid grid-cols-4 grid-rows-2 gap-6">
+            <div className="relative col-span-2 row-span-2  overflow-hidden rounded-lg">
+              <div className="absolute">Park Resort</div>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT62FJTlJkwJoIYKjEnNCJLw4YFAsi9DfohgZu3vztScEznylMWBuelZUa2e8T43Op1OFw&usqp=CAU"
+                alt=""
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="col-span-2 overflow-hidden rounded-lg max-h-[11em] ">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT62FJTlJkwJoIYKjEnNCJLw4YFAsi9DfohgZu3vztScEznylMWBuelZUa2e8T43Op1OFw&usqp=CAU"
+                alt=""
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="overflow-hidden rounded-lg">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT62FJTlJkwJoIYKjEnNCJLw4YFAsi9DfohgZu3vztScEznylMWBuelZUa2e8T43Op1OFw&usqp=CAU"
+                alt=""
+                className="w-full  h-full object-cover"
+              />
+            </div>
+            <div className="overflow-hidden rounded-lg">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT62FJTlJkwJoIYKjEnNCJLw4YFAsi9DfohgZu3vztScEznylMWBuelZUa2e8T43Op1OFw&usqp=CAU"
+                alt=""
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+        </article>
       </section>
     </>
   )
