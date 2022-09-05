@@ -4,7 +4,7 @@ import { Form } from '../Form'
 export function FeatureResource() {
   return (
     <>
-      <section className="container  mx-auto px-4 py-10 flex gap-10 flex-wrap">
+      <section className="container max-w-5xl mx-auto px-4 py-10 flex flex-col-reverse lg:flex-row gap-10 flex-wrap">
         <article className="flex-1 min-w-[30%]">
           <p className="text-sm text-gray-400 font-medium uppercase">
             Resort em destaque
@@ -38,8 +38,8 @@ export function FeatureResource() {
           </div>
         </article>
 
-        <div className="flex-1 flex items-center justify-end">
-          <div className="flex-shrink-0 max-w-md w-full h-64 bg-gray-700"></div>
+        <div className="flex-shrink-0 flex-grow lg:flex lg:min-w-[40%]">
+          <div className=" w-full h-64 lg:ml-auto bg-gray-700"></div>
         </div>
       </section>
     </>
@@ -49,13 +49,13 @@ export function FeatureResource() {
 export function ResortsGrid() {
   return (
     <>
-      <section className="container mx-auto px-4 py-4">
+      <section className="container max-w-5xl mx-auto px-4 py-4">
         <article>
           <h3 className="text-2xl text-gray-500 font-semibold text-center mb-8">
             Conheça mais resorts
           </h3>
-          <div className="grid grid-cols-4 grid-rows-2 gap-6">
-            <div className="relative col-span-2 row-span-2  overflow-hidden rounded-lg">
+          <div className="space-y-4 md:space-y-0 md:grid md:grid-cols-4 md:grid-rows-2 md:gap-6">
+            <div className="relative md:col-span-2 md:row-span-2  overflow-hidden rounded-lg">
               <div className="absolute bottom-0 pl-4 pb-4 text-white z-10">
                 Park Resort
               </div>
@@ -65,7 +65,7 @@ export function ResortsGrid() {
                 className="w-full h-full object-cover brightness-75"
               />
             </div>
-            <div className="relative col-span-2 overflow-hidden rounded-lg max-h-[11em] ">
+            <div className="relative md:col-span-2 overflow-hidden rounded-lg md:max-h-[11em] ">
               <div className="absolute bottom-0 pl-4 pb-4 text-white z-10">
                 Park Resort
               </div>
@@ -82,7 +82,7 @@ export function ResortsGrid() {
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT62FJTlJkwJoIYKjEnNCJLw4YFAsi9DfohgZu3vztScEznylMWBuelZUa2e8T43Op1OFw&usqp=CAU"
                 alt=""
-                className="w-full  h-full object-cover brightness-75"
+                className="w-full h-full object-cover brightness-75"
               />
             </div>
             <div className="relative overflow-hidden rounded-lg">

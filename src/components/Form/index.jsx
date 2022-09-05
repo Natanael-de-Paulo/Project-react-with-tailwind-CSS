@@ -4,7 +4,7 @@ export function Form() {
     <>
       <form
         action="#"
-        className="text-center flex flex-wrap  justify-center items-center gap-4 py-100"
+        className="text-center grid grid-cols-2 lg:grid-cols-3 gap-4 py-100"
       >
         <select
           className="bg-gray-50 px-3 py-2 border border-gray-300 rounded text-gray-500"
@@ -24,7 +24,7 @@ export function Form() {
 
         <button
           type="submit"
-          className="bg-yellow-400 px-3 py-2 border border-gray-300 rounded text-yellow-800 flex items-center justify-center gap-1"
+          className="bg-yellow-400 px-3 py-2 border border-gray-300 rounded text-yellow-800 col-span-2 lg:col-span-1 inline-flex items-center justify-center gap-1"
         >
           <icon.MdSearch height={24} width={24} />
           Pesquisar resorts

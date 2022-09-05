@@ -12,7 +12,7 @@ export function Banner() {
           alt="imagem"
           loading="lazy"
         />
-        <div className="container h-full mx-auto flex items-center justify-center">
+        <div className="container max-w-5xl h-full mx-auto flex items-center justify-center">
           <div>
             <div className="text-center space-y-1">
               <h1 className="text-gray-200 text-3xl"> Onde você quer ir? </h1>

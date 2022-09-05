@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <>
       <div className="border-t border-gray-200">
-        <footer className=" container mx-auto px-4 py-4 flex items-center justify-between">
+        <footer className=" container max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="text-gray-400">Logo</div>
           <div className="flex items-center gap-4">
             <AiOutlineFacebook height={24} width={24} />
