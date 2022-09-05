@@ -1,7 +1,8 @@
 import './App.css'
 import { Header } from './components/Header'
 import { Banner } from './components/Banner'
-import { FeatureResource } from './components/ResortsRecurses'
+import { FeatureResource, ResortsGrid } from './components/ResortsRecurses'
+import { Footer } from './components/Footer'
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
       <main className="text-gray-600">
         <Banner />
         <FeatureResource />
+        <ResortsGrid />
       </main>
+      <Footer />
     </>
   )
 }

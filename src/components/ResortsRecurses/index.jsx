@@ -1,4 +1,5 @@
 import * as icon from 'react-icons/md'
+import { Form } from '../Form'
 
 export function FeatureResource() {
   return (
@@ -96,6 +97,9 @@ export function ResortsGrid() {
             </div>
           </div>
         </article>
+        <div className="py-20">
+          <Form />
+        </div>
       </section>
     </>
   )
